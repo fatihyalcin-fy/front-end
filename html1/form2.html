@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        div{
+            width: 50%;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="result.html" method="GET" name="myform">
+        <div>
+            <label for="cars">Choose a Car:</label>
+            <select name="cars-select" id="cars">
+                <optgroup label="Expensive Cars">
+                <option value="Porsche">Porsche</option>
+                <option value="Kartal">Kartal</option>
+                </optgroup>
+                <optgroup label="Diğerleri">
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Mustang">Mustang</option>
+                </optgroup>
+            </select>
+
+        </div>
+        <br><br>
+        <div>
+            <label for="message-box">Mesajınızı Girin</label><br><br>
+            <textarea name="message-box" id="message-box" cols="30" rows="10" placeholder="Enter your text..." style="border-radius: 10px; padding: 15px;" required></textarea>
+        </div>
+        <br><br>
+        <div>
+            <label for="mybrowser">Browser</label><br>
+            <input type="text" name="browser-option" id="my-browser" list="browsers">
+            <datalist id="browsers">
+                <option value="Chrome"></option>
+                <option value="Safari"></option>
+                <option value="Brave"></option>
+                <option value="Mozilla"></option>
+                <option value="Opera"></option>
+            </datalist>
+        </div>
+        <br><br>
+        <fieldset>
+            <legend> - Personal Info - </legend>
+            <label for="firstname">Voornaam:</label>
+            <input type="text" name="voornaam" id="firstname" placeholder="Fatih.."><br><br>
+            <label for="surname">Achternaam:</label>
+            <input type="text" name="achternaam" id="surname" placeholder="Yalçın..">
+        </fieldset>
+        <input type="submit" value="SEND">
+    </form>
+</body>
+</html>

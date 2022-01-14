@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        input{
+            text-decoration: none;
+            width: 50%;
+            border-bottom: 1px solid grey;
+            border-top: 0px;
+            border-left: none;
+            border-right: none;
+            font-size: 20px;
+            
+
+        }
+
+        input:active{
+            border: 0px;
+        }
+
+        input:hover{
+            background-color: grey;
+            color: white;
+        }
+        
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+<body>
+    <form action="result.html">
+        <h1>Bizimle İletişime Geçin</h1>
+        <!--Input text password-->
+        <div style>
+            <label for="ad">Ad:</label><br><br>
+            <input type="text" name="username" id="ad" placeholder="Adınızı yazın...">
+            <br><br>
+            <label for="soyad">Soyad:</label><br><br>
+            <input type="text" name="surname" id="soyad" placeholder="Soyadınızı yazın...">
+            <br><br>
+            <label for="parola">Parola:</label><br><br>
+            <input type="password" name="password" id="parola" placeholder="Parolanızı yazın...">
+        </div>
+        <hr>
+        <!--Radio button-->
+        <div>
+            <br><label for="">Cinsiyetiniz</label><br><br>
+            
+            <input type="radio" name="gender" id="cinsiyet1">
+            <label for="cinsiyet">Erkek</label>
+            <input type="radio" name="gender" id="cinsiyet2">
+            <label for="cinsiyet">Kadın</label>
+        </div>
+        <br><br>
+        <!--Checkbox--><hr>
+        <div>
+            <label for="">En sevdiğiniz hayvanlar</label><br><br>
+            <label for="panda">Panda</label>
+            <input type="checkbox" name="animal" id="panda" value="panda">
+            <label for="panda">Su Samuru</label>
+            <input type="checkbox" name="animal" id="su samuru" value="su samuru">
+            <label for="panda">Goril</label>
+            <input type="checkbox" name="animal" id="goril" value="goril">
+        </div>
+<hr>
+        <!--Yaş-->
+        <br><br>
+        <div>
+            <label for="age">Yaşınızı giriniz</label><br><br>
+            <input type="number" name="age" id="yaş" min="7" placeholder="Örn: 23">
+            
+        </div>
+
+        <!--Arama--><br><br>
+
+        <div>
+            <label for="kitap arama">Kitap Arat</label><br><br>
+            <input type="search" name="book" id="kitap arama" placeholder="Aranacak kelime...">
+            
+        </div>
+
+        <!--Renk seçtirme--><br><br>
+
+        <div>
+            <label for="color">Renk seçiniz</label>
+            <input type="color" name="color" id="color" value="#F6B73C">
+        </div>
+
+        <!--Dosya seçtirme--> <br><br>
+
+        <div>
+            <input type="file" name="file" id="file" multiple>
+            <label for="file">Fotoğraf</label>
+        </div>
+
+        <!--Telefon no girme-->
+
+        <div>
+            <label for="tel">Telefon</label>
+            <input type="tel" name="" id="">
+        </div>
+
+        <div>
+            <label for="">Hangi Tatlıyı Seversiniz?:</label>
+            <select name="" id="">
+                <option value="sütlac">Sütlaç</option>
+                <option value="baklava">Baklava</option>
+                <option value="puding">puding</option>
+                <option value="kadayif">Kadayıf Dolması</option>
+            </select>
+        </div>
+
+        <!--Date girme-->
+
+        <div>
+            <label for="date">Doğum tarihi</label>
+            <input type="date" name="date" id="date" min="1950-01-01" max="2003-01-01">
+        </div>
+        
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+    <div>
+        
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
