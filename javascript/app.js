@@ -20,7 +20,7 @@ console.log(alert);
 console.log(a);
 
  */
-const aa = 5;
+/* const aa = 5;
 console.log(aa);
 
 console.log(typeof 20);
@@ -47,4 +47,36 @@ console.log(Boolean(null));
 
 console.log(2 === '2');
 
-console.log(2 == '2.0');
+console.log(2 == '2.0'); */
+
+var x = 0.1 + 0.2
+console.log(x);
+console.log(+x.toFixed(5));
+
+
+console.log(15+25);
+console.log(015+025);
+
+console.log(0234+012);
+
+var z = 22;
+var t = '2';
+console.log(z - t);
+
+/* var input = prompt("Enter user name:")
+console.log(typeof input);
+
+var input = +prompt("Enter age:")
+console.log(typeof input); */
+
+/* var c = '3';
+console.log(-c, typeof -c);
+
+
+var a = 'a';
+var b = 2;
+
+console.log(typeof a !== typeof b); */
+
+console.log('FullStack' > 'Fuo');
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: #f1f2f6;
+        border: 2px darkgrey solid;
+      }
+
+      main {
+        background-color: antiquewhite;
+        padding: 1rem;
+        border: 2px darkgrey solid;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+
+      aside {
+        background-color: cadetblue;
+        border: 2px darkgrey solid;
+        float: left;
+        width: 25%;
+        height: 500px;
+      }
+
+      
+      article {
+        background-color: cornsilk;
+        border: 2px darkgrey solid;
+        width: 70%;
+        height: 500px;
+        float: right;
+      }
+      footer {
+        background-color: darkolivegreen;
+        border: 2px darkgrey solid;
+      }
+
+      .div1 {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <main class="clearfix">
+      <aside>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam
+        distinctio at corrupti vero ab cum omnis non magnam iure dolorem tempora
+        commodi natus consectetur ut perspiciatis enim quas, velit consequuntur.
+        Hic aperiam praesentium quasi dolor quisquam molestiae ullam qui?
+      </aside>
+      <article>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis,
+        voluptatum minus laboriosam tempora harum aspernatur modi asperiores
+        explicabo recusandae alias officia tenetur error deserunt dolore, in
+        aliquid sequi quis soluta porro perferendis facere minima magni vitae!
+        Itaque et officiis voluptas vero recusandae delectus dolorem ipsa
+        magnam. Beatae tempora rem voluptatibus hic assumenda ex provident
+        numquam veniam repellendus voluptatum sint, corporis autem maiores
+        suscipit aperiam harum tempore, ullam laudantium excepturi nobis
+        perferendis! Sit repellat exercitationem, fuga beatae rerum debitis
+        veritatis odio?
+      </article>
+      <!-- <div class="div1"></div> -->
+    </main>
+    <footer>Developer Web Page</footer>
+  </body>
+</html>
