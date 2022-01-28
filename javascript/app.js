@@ -78,5 +78,12 @@ var b = 2;
 
 console.log(typeof a !== typeof b); */
 
-console.log('FullStack' > 'Fuo');
+/* console.log('FullStack' > 'Fuo'); */
 
+let score = 30;
+let grade = score >= 50
+
+if (grade) {
+    console.log(`You passed the exam with the score of ${score}`);
+    
+}else console.log(`You failed with the score of ${score}`);
