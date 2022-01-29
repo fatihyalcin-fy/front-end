@@ -93,7 +93,7 @@ switch (day.toLowerCase()){
       break;
 } */
 
-let i = 0;
+/* let i = 0;
 let sum = 0;
 
 while (i < 6) {
@@ -108,4 +108,24 @@ do {
     i++
 }while (i<6); {
     
+} */
+
+/* let str = "Continent Design"
+
+console.log(str.length);
+
+console.log(str[0]);
+
+for (let i = 0; i < str.length; i++) {
+    console.log(str[i]);
 }
+
+for(let i = 0; i <= 100; i++){
+    if(i % 5 == 0) continue;
+    console.log(i);
+} */
+
+/* let x = prompt (`Bir sayı giriniz: `) */
+
+console.log(Math.random()*6+1);
+console.log(Math.trunc(Math.random()*6+1));
