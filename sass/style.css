@@ -42,6 +42,18 @@ ul li {
 section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  line-height: 2rem;
+  padding: 1rem;
+}
+section aside button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 0.7rem;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

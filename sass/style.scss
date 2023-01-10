@@ -51,4 +51,19 @@ ul {
 section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: $bannerBgColor;
+  line-height: 2rem;
+  padding: 1rem;
+
+  aside {
+    button {
+      color: $fontColor;
+      background-color: black;
+      border: none;
+      padding: 10px;
+      border-radius: 0.7rem;
+      margin-top: 1rem;
+    }
+  }
 }
