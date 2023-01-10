@@ -17,3 +17,38 @@ body {
   font-family: $fontFamily;
   color: $fontColor;
 }
+
+header {
+  background-color: $navBgColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 80px;
+    border: $myBorder;
+    border-radius: 1rem;
+    padding: 3px;
+    background-color: $fontColor;
+    margin: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: $fontColor;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+}
+
+ul {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}

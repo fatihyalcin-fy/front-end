@@ -10,4 +10,38 @@ body {
   color: white;
 }
 
+header {
+  background-color: rgb(255, 86, 86);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 80px;
+  border: 2px solid brown;
+  border-radius: 1rem;
+  padding: 3px;
+  background-color: white;
+  margin: 10px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=style.css.map */
