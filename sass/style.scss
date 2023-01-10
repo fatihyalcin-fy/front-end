@@ -1,7 +1,19 @@
-$primaryColor: rgb(87, 33, 33);
+$bgColor: #ffebcd;
+$fontFamily: Montserrat;
+$fontSize: 1.2rem;
+$navBgColor: rgb(255, 86, 86);
+$bannerBgColor: green;
+$myBorder: 2px solid brown;
+$fontColor: white;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  p {
-    background-color: $primaryColor;
-  }
+  background-color: $bgColor;
+  font-family: $fontFamily;
+  color: $fontColor;
 }

@@ -1,5 +1,13 @@
-body p {
-  background-color: rgb(87, 33, 33);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffebcd;
+  font-family: Montserrat;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
