@@ -39,7 +39,7 @@ ul li {
   text-decoration: none;
 }
 
-section {
+banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,13 +47,65 @@ section {
   line-height: 2rem;
   padding: 1rem;
 }
-section aside button {
+banner aside button {
   color: white;
   background-color: black;
   border: none;
   padding: 10px;
   border-radius: 0.7rem;
   margin-top: 1rem;
+  cursor: pointer;
+}
+banner aside button:hover {
+  background-color: grey;
+}
+
+.card1 {
+  border: 2px solid red;
+  border-radius: 1rem;
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  background-color: black;
+  color: grey;
+  align-items: center;
+  text-align: center;
+}
+
+.card2 {
+  border: 2px solid red;
+  border-radius: 1rem;
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  background-color: purple;
+  color: grey;
+  align-items: center;
+  text-align: center;
+}
+
+.card3 {
+  border: 2px solid red;
+  border-radius: 1rem;
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  background-color: red;
+  color: grey;
+  align-items: center;
+  text-align: center;
+}
+
+.card4 {
+  border: 2px solid red;
+  border-radius: 1rem;
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  background-color: green;
+  color: grey;
+  align-items: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

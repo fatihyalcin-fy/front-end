@@ -48,7 +48,7 @@ ul {
   }
 }
 
-section {
+banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,6 +64,36 @@ section {
       padding: 10px;
       border-radius: 0.7rem;
       margin-top: 1rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: grey;
+      }
     }
   }
+}
+
+@mixin rset($color, $color2) {
+  border: 2px solid red;
+  border-radius: 1rem;
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+  background-color: $color;
+  color: $color2;
+  align-items: center;
+  text-align: center;
+}
+
+.card1 {
+  @include rset(black, grey);
+}
+.card2 {
+  @include rset(purple, grey);
+}
+.card3 {
+  @include rset(red, grey);
+}
+.card4 {
+  @include rset(green, grey);
 }
